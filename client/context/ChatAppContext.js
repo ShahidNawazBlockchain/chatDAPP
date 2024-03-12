@@ -7,7 +7,7 @@ export const ChatAppConnect=React.createContext();
 export const ChatAppProvider=({children})=>{
     const title="Hi Welcome to blockchain Cat app";
     return (
-        <ChatAppConnect.Provider>
+        <ChatAppConnect.Provider> 
         {children}
         </ChatAppConnect.Provider>
     )
