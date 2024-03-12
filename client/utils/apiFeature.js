@@ -31,3 +31,7 @@ try {
     console.log(error)
 }
 }
+
+const fetchContract=(signerOrProvider)=>{
+    new ethers.Contract(ChatAppABI,ChatappAddress,signerOrProvider);
+}
